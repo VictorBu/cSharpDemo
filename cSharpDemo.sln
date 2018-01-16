@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{E7DE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Demo", "Log4Net.Demo\Log4Net.Demo.csproj", "{8019D727-74F6-46ED-8D86-DFAB3580A28D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{E251D611-C399-4A51-B492-E45565B1B8E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topshelf.log4net.quartz", "topshelf.log4net.quartz\topshelf.log4net.quartz.csproj", "{FBC72C9D-D156-459B-A132-123F8D7C5507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{8019D727-74F6-46ED-8D86-DFAB3580A28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8019D727-74F6-46ED-8D86-DFAB3580A28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8019D727-74F6-46ED-8D86-DFAB3580A28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC72C9D-D156-459B-A132-123F8D7C5507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC72C9D-D156-459B-A132-123F8D7C5507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC72C9D-D156-459B-A132-123F8D7C5507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC72C9D-D156-459B-A132-123F8D7C5507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +70,6 @@ Global
 		{8077F547-3D58-46F2-B850-F0CC6AAC656C} = {E3C81570-F449-4C43-9021-A404148206B3}
 		{5622DB28-042A-49D9-8199-2006DC1C3CA6} = {2AC4C9F9-21DC-4703-8974-A0ADE30EA397}
 		{8019D727-74F6-46ED-8D86-DFAB3580A28D} = {E7DE22A6-E0CC-4EAA-A15F-7CB43C7CCB09}
+		{FBC72C9D-D156-459B-A132-123F8D7C5507} = {E251D611-C399-4A51-B492-E45565B1B8E7}
 	EndGlobalSection
 EndGlobal
